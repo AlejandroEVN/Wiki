@@ -1,0 +1,10 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block body %}            
+    {{ entry | safe }}
+    <a class="badge badge-secondary" href="{% url 'encyclopedia:edit' title=title %}">Edit this page</a>
+{% endblock %}

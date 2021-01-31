@@ -1,0 +1,11 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Edit
+{% endblock %}
+
+{% block body %}
+    <form action="{% url 'encyclopedia:edit' title=title %}" method="post">
+        {% include "encyclopedia/form-template.html" %}
+    </form>
+{% endblock %}

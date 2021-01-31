@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Add a new entry
+{% endblock %}
+
+{% block body %}
+    {% if msg_error %}
+        <div class="alert alert-danger">
+            {{msg_error}}. Check the entry '{{ title }}' <a href="{% url 'encyclopedia:entry' title=title %}">here</a>
+        </div>
+    {% endif %}
+    <form action="{% url 'encyclopedia:add' %}" method="post">
+        {% include "encyclopedia/form-template.html" %}
+    </form>
+{% endblock %}

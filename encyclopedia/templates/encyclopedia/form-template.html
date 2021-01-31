@@ -1,0 +1,11 @@
+{% csrf_token %}
+<div class="form-group">
+    <label for="Title">Title:</label>
+    <br>
+    {{form.title}}      
+    <label for="Text">Text:</label>
+    <br>
+    {{form.text}}
+    <hr>
+    <input type="submit" value="Save entry" class="btn btn-secondary">
+</div>
