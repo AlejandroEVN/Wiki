@@ -5,7 +5,8 @@ This was my first project made with Django. This app doesn't use Django models, 
 The main objective of this project was to get a grasp on the basic concepts of the Django framework.
 
 #### Demo
-SOON
+<img src="./encyclopedia/demo/wiki-demo1.gif" width="960" height="540" />
+<img src="./encyclopedia/demo/wiki-demo2.gif" width="960" height="540" />
 
 #### Routes
 
