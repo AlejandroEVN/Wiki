@@ -1,8 +1,7 @@
 ### Wiki  
 
 Wikipedia like website. Users can add, edit or get a random wiki entry.  
-This was my first project made with Django. This app doesn't use Django models, instead a .md file is created/modified everytime a user  
-adds/edits an entry.
+This was my first project made with Django. This app doesn't use Django models, instead a .md file is created/modified everytime a user adds/edits an entry.
 The main objective of this project was to get a grasp on the basic concepts of the Django framework.
 
 #### Demo
